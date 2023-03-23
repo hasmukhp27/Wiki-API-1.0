@@ -83,7 +83,7 @@ app.route("/articles")
 
   })
 
-
+// Delete route to delete all the articles
   .delete(async (req, res)=>{
     try {
       let deleteArticles = await Article.deleteMany({ });
