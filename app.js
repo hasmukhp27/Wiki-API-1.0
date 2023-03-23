@@ -98,6 +98,8 @@ app.route("/articles")
 app.route("/articles/:articleName")
 
 //Get Route to fetch all articles
+
+//Gets a specific Article under Articles parent route
   .get(async (req, res) => {
     try {
       //let articleName = _.capitalize(req.params.articleName);
